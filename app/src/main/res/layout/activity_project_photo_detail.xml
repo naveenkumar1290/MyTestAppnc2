@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:padding="10dp"
+
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="File Name" />
+
+            <TextView
+                android:id="@+id/tv_file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="Description" />
+
+            <TextView
+                android:id="@+id/tv_file_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:maxLines="2"
+                 android:gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Job Name" />
+
+            <TextView
+                android:id="@+id/tv_job_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:gravity="left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Upload Date" />
+
+            <TextView
+                android:id="@+id/tv_upload_dated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="Last Action Date" />
+
+            <TextView
+                android:id="@+id/tv_last_action_dated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:gravity="left" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Status" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:gravity="left" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

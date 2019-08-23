@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home_1"
+            android:title="Home" />
+    </group>
+<!--
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login_1"
+            android:title="Student Login" />
+    </group>
+-->
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Course_List"
+            android:icon="@drawable/course_1"
+            android:title="Course List" />
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Center_List"
+            android:icon="@drawable/center_1"
+            android:title="Center List" />
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Center_Search"
+            android:icon="@drawable/search_1"
+            android:title="Center Search" />
+    </group>
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_subject_lst"
+            android:icon="@drawable/subject_1"
+            android:title="Subject List" />
+
+    </group>
+
+
+    <group android:id="@+id/grp7"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+    
+
+</menu>
